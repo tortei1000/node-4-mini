@@ -28,7 +28,7 @@ class App extends Component {
 
   createMessage() {
     axios
-      .post('/api/message', {
+      .post('/api/messages', {
         username:this.state.username,
         message:this.state.message
 
